@@ -2,7 +2,7 @@ package DGTMODEL;
 
 public class COCHE {
 
-    public class Coche extends Vehiculo {
+    public static class Coche extends Vehiculo {
         private int numAsientos;
         private boolean tieneAirbags;
 

@@ -2,7 +2,7 @@ package DGTMODEL;
 
 public class PROPIETARIO {
 
-    public class Propietario {
+    public static class Propietario {
         private String dni;
         private String nombre;
         private String apellidos;

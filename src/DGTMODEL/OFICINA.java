@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class OFICINA {
 
-    public class Oficina {
+    public static class Oficina {
         private String ciudad;
         private String cp;
         private String direccion;
