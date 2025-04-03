@@ -1,0 +1,107 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="532" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-1" value="OFICINA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="475" y="-490" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-2" value="&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-ciudad&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;-cp&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;-direccion&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;-gestionaCobros&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="v7ZIPDDKbe2wSNFOEcym-1" vertex="1">
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-5" value="PROPIETARIO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="460" y="-240" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-7" value="-DNI&lt;div&gt;-nombre&lt;/div&gt;&lt;div&gt;-apellidos&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-numeroPuntos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="v7ZIPDDKbe2wSNFOEcym-5" vertex="1">
+          <mxGeometry y="26" width="190" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-9" value="VEHICULO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="465" y="13" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-12" value="-MATRICULA&lt;div&gt;-marca&lt;/div&gt;&lt;div&gt;-km&lt;/div&gt;&lt;div&gt;-fechaMatriculacion&lt;/div&gt;&lt;div&gt;-propietario&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="v7ZIPDDKbe2wSNFOEcym-9" vertex="1">
+          <mxGeometry y="26" width="210" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v7ZIPDDKbe2wSNFOEcym-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-13" value="COCHES" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="390" y="290" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-14" value="-asientos:&amp;nbsp;&lt;div&gt;-airbags&lt;/div&gt;&lt;div&gt;-sillabebe: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="v7ZIPDDKbe2wSNFOEcym-13" vertex="1">
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-17" value="MOTOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="610" y="290" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="v7ZIPDDKbe2wSNFOEcym-17" source="v7ZIPDDKbe2wSNFOEcym-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-20" value="-potencia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="v7ZIPDDKbe2wSNFOEcym-17" vertex="1">
+          <mxGeometry y="26" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-21" value="MOTOS AGUA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="520" y="470" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.48;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v7ZIPDDKbe2wSNFOEcym-25" target="v7ZIPDDKbe2wSNFOEcym-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="410" />
+              <mxPoint x="677" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7ZIPDDKbe2wSNFOEcym-25" value="MOTOS TERRESTRE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="750" y="470" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.457;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v7ZIPDDKbe2wSNFOEcym-21" target="v7ZIPDDKbe2wSNFOEcym-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="450" y="-150" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-7" value="+buscarPROP(DNI,apellidos) return String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="430" y="-150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-9" value="+añadirProp(DNI,nombre,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;apellidos,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;numeroPuntos) return boolean&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="440" y="-130" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="465" y="123" width="210" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-11" value="+buscarVehiculo(MATRICULA) return String&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="450" y="120" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-12" value="+añadirVehiculo(MATRICULA, marca, km,&lt;div&gt;fechaMatriculacion, propietario)&lt;/div&gt;&lt;div&gt;return boolean&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="450" y="133" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-13" value="edadVehiculo(fechaMatriculacion) return int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="460" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="390" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAlKLEK3e_AMhFNM17w_-14" value="+tieneSillabebe(sillabebe)&lt;div&gt;retun boolean&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GMM6QCaxX9sXlXoPew86-0" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.481;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v7ZIPDDKbe2wSNFOEcym-2" target="v7ZIPDDKbe2wSNFOEcym-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="-310" as="sourcePoint" />
+            <mxPoint x="570" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMM6QCaxX9sXlXoPew86-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.518;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UAlKLEK3e_AMhFNM17w_-9" target="v7ZIPDDKbe2wSNFOEcym-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="-30" as="sourcePoint" />
+            <mxPoint x="590" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
